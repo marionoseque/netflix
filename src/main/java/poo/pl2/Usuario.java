@@ -1,4 +1,4 @@
-package poo.javaflix;
+package poo.PL2;
 
 public class Usuario {
     
