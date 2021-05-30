@@ -32,5 +32,4 @@ public class Cliente extends Usuario{
         return super.toString()+" DNI: "+dni+". Nombre: "+nombre;
     }
 
-    
 }
