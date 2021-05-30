@@ -1,5 +1,5 @@
 package poo.PL2;
-
+//solo para comprobar
 public class Cliente extends Usuario{
    
     private String dni;
