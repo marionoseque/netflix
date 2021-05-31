@@ -4,11 +4,13 @@ public class Cliente extends Usuario{
    
     private String dni;
     private String nombre;
+    private Tarjeta tarjeta;
 
-    public Cliente(String dni, String nombre, String correo, String clave) {
+    public Cliente(String dni, String nombre, String correo, String clave,Tarjeta tarjeta) {
         super(correo, clave);
         this.dni = dni;
         this.nombre = nombre;
+        this.tarjeta=tarjeta;
     }
 
     public String getNombre() {
@@ -32,7 +34,7 @@ public class Cliente extends Usuario{
     }
     @Override
     public String toString() {
-        return super.toString()+" DNI: "+dni+". Nombre: "+nombre;
+        return super.toString()+" DNI: "+dni+". Nombre: "+nombre+". Tarjeta: "+tarjeta+'.';
     }
 
 }
