@@ -27,27 +27,93 @@ public class IniciarSesion extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        logo = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        CorreoLabel = new javax.swing.JLabel();
+        ContraseñaLabel = new javax.swing.JLabel();
+        ContraseñaTextField = new javax.swing.JTextField();
+        CorreoTextField = new javax.swing.JTextField();
+        tituloBlanco = new javax.swing.JLabel();
+        tituloNegro = new javax.swing.JLabel();
+        AceptarButton = new javax.swing.JButton();
+        fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(204, 0, 0));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(logo)
-                .addGap(0, 400, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(logo)
-                .addGap(0, 300, Short.MAX_VALUE))
-        );
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Inicie sesión para disfrutar de la mayor gama de películas y series");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, -1, 20));
+
+        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Volver al inicio");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 20, 110, -1));
+
+        CorreoLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        CorreoLabel.setForeground(new java.awt.Color(255, 255, 255));
+        CorreoLabel.setText("Correo electrónico:");
+        getContentPane().add(CorreoLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, 30));
+
+        ContraseñaLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        ContraseñaLabel.setForeground(new java.awt.Color(255, 255, 255));
+        ContraseñaLabel.setText("Contraseña:");
+        getContentPane().add(ContraseñaLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, 30));
+
+        ContraseñaTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ContraseñaTextFieldActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ContraseñaTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, 220, 30));
+
+        CorreoTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CorreoTextFieldActionPerformed(evt);
+            }
+        });
+        getContentPane().add(CorreoTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 170, 220, 30));
+
+        tituloBlanco.setFont(new java.awt.Font("Calibri", 1, 56)); // NOI18N
+        tituloBlanco.setForeground(new java.awt.Color(255, 255, 255));
+        tituloBlanco.setText("JAVAFLIX");
+        getContentPane().add(tituloBlanco, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
+
+        tituloNegro.setFont(new java.awt.Font("Calibri", 1, 56)); // NOI18N
+        tituloNegro.setText("JAVAFLIX");
+        getContentPane().add(tituloNegro, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, -1, -1));
+
+        AceptarButton.setBackground(new java.awt.Color(0, 0, 0));
+        AceptarButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        AceptarButton.setForeground(new java.awt.Color(255, 255, 255));
+        AceptarButton.setText("Iniciar Sesión");
+        AceptarButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AceptarButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(AceptarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 290, 140, -1));
+
+        fondo.setForeground(new java.awt.Color(255, 255, 255));
+        fondo.setIcon(new javax.swing.ImageIcon("C:\\Users\\ferib\\Documents\\NetBeansProjects\\PL2\\src\\main\\java\\imagenes\\fondo.jpeg")); // NOI18N
+        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, 380));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void ContraseñaTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ContraseñaTextFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ContraseñaTextFieldActionPerformed
+
+    private void CorreoTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CorreoTextFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CorreoTextFieldActionPerformed
+
+    private void AceptarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AceptarButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AceptarButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -85,6 +151,15 @@ public class IniciarSesion extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel logo;
+    private javax.swing.JButton AceptarButton;
+    private javax.swing.JLabel ContraseñaLabel;
+    private javax.swing.JTextField ContraseñaTextField;
+    private javax.swing.JLabel CorreoLabel;
+    private javax.swing.JTextField CorreoTextField;
+    private javax.swing.JLabel fondo;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel tituloBlanco;
+    private javax.swing.JLabel tituloNegro;
     // End of variables declaration//GEN-END:variables
 }
