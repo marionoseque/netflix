@@ -1,6 +1,7 @@
 package poo.pl2;
 import java.util.ArrayList;
 
+//esto es un comentario
 public class Contenido {
     private String titulo;
     private String sinopsis;
