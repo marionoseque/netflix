@@ -7,13 +7,15 @@ public class Contenido {
     private String genero;
     private int año;
     private ArrayList<String>actores;
+    private String imagen;
 
-    public Contenido(String titulo, String sinopsis, String genero, int año, ArrayList<String> actores) {
+    public Contenido(String titulo, String sinopsis, String genero, int año, ArrayList<String> actores, String imagen) {
         this.titulo = titulo;
         this.sinopsis = sinopsis;
         this.genero = genero;
         this.año = año;
         this.actores = actores;
+        this.imagen=imagen;
     }
 
 

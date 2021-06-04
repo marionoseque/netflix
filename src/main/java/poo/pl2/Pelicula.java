@@ -6,8 +6,8 @@ public class Pelicula extends Contenido {
     private int duracion;
     private String director;
 
-    public Pelicula(int duracion, String director, String titulo, String sinopsis, String genero, int año, ArrayList<String> actores) {
-        super(titulo, sinopsis, genero, año, actores);
+    public Pelicula(int duracion, String director, String titulo, String sinopsis, String genero, int año, ArrayList<String> actores, String imagen) {
+        super(titulo, sinopsis, genero, año, actores, imagen);
         this.duracion = duracion;
         this.director = director;
     }
