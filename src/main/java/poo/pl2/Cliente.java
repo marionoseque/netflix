@@ -29,9 +29,6 @@ public class Cliente extends Usuario{
         this.dni = dni;
     }
 
-    public void setClave(String clave) {
-        this.clave = clave;
-    }
     @Override
     public String toString() {
         return super.toString()+" DNI: "+dni+". Nombre: "+nombre+". Tarjeta: "+tarjeta+'.';
